@@ -4,12 +4,12 @@
 
 <script>
 function myFunction() {
-  alert("Hello World!");
+  alert("Hey! Welcome to my Homework 5 Site!");
 }
 myFunction();
 </script>
   
-<h2>Function 1</h2>
+<h2>Function 2</h2>
 <script>
 function dateFunction() {
   document.getElementById('func1').innerHTML = Date();
@@ -38,7 +38,7 @@ function nameFunction() {
 
 <body>
 
-<h2> Function 2 </h2>
+<h2> Function 3</h2>
 
 <button onclick="nameFunction()">Try it</button>
 
@@ -52,14 +52,14 @@ function nameFunction() {
 <html>
 <body>
 
-<h2>Function 3</h2>
+<h2>Function 4</h2>
 
 <p>This function multiplies the arguments provided.</p>
 
 <p id="func3"></p>
 
 <script>
-var x = mathFunction(4, 3);
+var x = mathFunction(39,23);
 document.getElementById("func3").innerHTML = x;
 
 function mathFunction(a, b) {
@@ -75,7 +75,7 @@ function mathFunction(a, b) {
 <html>
 <body>
 
-<h2>Function 4</h2>
+<h2>Function 5</h2>
 
 <p>This function converts a farenheit value to degrees celcius</p>
 
@@ -85,7 +85,7 @@ function mathFunction(a, b) {
 function celciusConversion(DegreeF) {
   return (5/9) * (DegreeF-32);
 }
-document.getElementById("func4").innerHTML = toCelsius(77);
+document.getElementById("func4").innerHTML = celciusConversion(100);
 </script>
 
 </body>
